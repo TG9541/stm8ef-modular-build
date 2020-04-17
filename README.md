@@ -38,4 +38,3 @@ Make the Travis-CI badge point to your accounts:
 ```
 [![Travis-CI](https://travis-ci.org/TG9541/stm8ef-modular-build.svg)](https://travis-ci.org/TG9541/stm8ef-modular-build)
 ```
-

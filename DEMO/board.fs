@@ -2,6 +2,7 @@
 
 #require hi
 
+NVM
 \ get Ain4 from PD3 and print it
 : show ( -- )
   4 ADC! ADC@ .
@@ -14,3 +15,4 @@
 ;
 
 ' init 'BOOT !
+RAM
