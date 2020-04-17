@@ -22,7 +22,7 @@ all: load
 release: zip tgz
 
 zip: simload
-	find out/ -name "*.ihx" -print | zip -r out/stm8ef-bin LICENSE.md docs/words.md inc/* mcu/* lib/* -@
+	find out/ -name "*.ihx" -print | zip -r out/stm8ef-bin docs/words.md inc/* mcu/* lib/* -@
 	find out/ -name "simbreak.txt" -print | zip -r out/stm8ef-bin tools/* -@
 	find out/ -name "target" -print | zip -r out/stm8ef-bin -@
 
