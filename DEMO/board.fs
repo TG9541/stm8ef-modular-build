@@ -12,3 +12,5 @@
   [ ' show ] LITERAL BG ! 
   hi
 ;
+
+' init 'BOOT !
